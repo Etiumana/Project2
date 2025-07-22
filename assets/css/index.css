@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
@@ -22,14 +23,23 @@ body {
     text-decoration:none;
 }
 
-.nav-menu li a:hoover {
+.nav-menu li a:hover {
     text-decoration: underline;
+}
+
+.badge:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .nav-menu li button, .donate {
     padding:10px;
     background-color: teal;
     border-radius: 10px;
+    color:white;
+}
+
+.nav-menu li button:hover, .donate:hover {
+    background-color: #006580;
 }
 
 .title-intro{
@@ -53,8 +63,8 @@ body {
 .how-it-works{
     font-size:20px;
     margin-top:10px;
-    
 }
+
 .how-it-works h2, .how-it-works p{
     margin:30px;
 }
@@ -62,6 +72,7 @@ body {
 .mini h5, .mini p{
     margin:30px;
 }
+
 .container{
     margin: 50px;
     text-align: center;
@@ -77,10 +88,11 @@ body {
 .section h5{
     text-align: center;
     font-size:24px;
+    color: black;
+    margin-bottom: 20px;
 }
 
 .container2{
-    
     display:grid;
     grid-template-columns: auto auto auto;
     width:700px;
@@ -95,6 +107,12 @@ body {
     background-color: white;
     border:1px solid white;
     padding: 20px;
+    color:gray;
+    text-decoration: none;
+}
+
+.badge h5{
+    color: gray;
 }
 
 .container2 img{
@@ -103,7 +121,9 @@ body {
 }  
 
 .section{
-    background-color: rgb(200, 200, 200, 1);
+    background-color: lightgray;
+    padding:50px;
+    
 }
 
 .section .button{
@@ -180,8 +200,3 @@ table {
     margin: 20px;
     width:90%;
 }
-
-/* .styled-table th, .styled-table td{
-    padding: 12px 20px;
-    border: 1px
-} */
