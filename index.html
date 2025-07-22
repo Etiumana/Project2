@@ -23,29 +23,28 @@
         <div class="title-intro">
             <h1>Your <span>Career in Web Development</span><br>Starts Here</h1>
             <p>Our full stack curriculum is free and supported by a <br>passionate open source community.</p>
-            <button type="button">View Full curriculum</button>
+            <button class="curriculum" type="button">View Full curriculum</button>
             <!-- specify width and height of image -->
             <img src="assets/images/big-image.svg" alt="the big image">
         </div>
 
         <div class="container">
-            <div >
-                <!-- conform its the right heading label e.g. h4 if not change it -->
-                <h4>How it works</h4>
-                <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
+            <div class="how-it-works">
+                <h2>How it works</h2>
+                <p>This is the website we wish we had when we were learning on our own. We scour the<br> internet looking for only the best resources to supplement your learning and present them<br> in a logical order.</p>
             </div>
             <div class="mini-images">
-                <div>
+                <div class="mini">
                     <img src="assets/images/book-image.svg" alt="image of a book">
                     <h5>Learn</h5>
                     <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
                 </div>
-                <div>
+                <div class="mini">
                     <img src="assets/images/laptop-image.svg" alt="image of a laptop">
                     <h5>Build</h5>
                     <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.</p>
                 </div>
-                <div>
+                <div class="mini">
                     <img src="assets/images/connect-image.svg" alt="image depicting 2 people connecting">
                     <h5>Connect</h5>
                     <p>You're not alone. Learn and get help from our friendly community of beginner and experienced developers.</p>
@@ -134,7 +133,7 @@
             <p>The Odin Project is funded by the community. Join us in empowering<br> learners around the globe by supporting The Odin Project!</p>
             <div class="flex-button">
                 <div class="learn-button">
-                    <button type="button">Learn More</button>
+                    <button id="learn-button" type="button">Learn More</button>
                 </div>
                 <div class="donate-button">
                     <button class="donate"type="button">Donate now -></button>
@@ -142,42 +141,46 @@
             </div>
         </div>
         <div>
-            <table>
-                <tr>
-                    <th>THE ODIN PROJECT</th>
-                    <th>About us</th>
-                    <th>Support</th>
-                    <th>Guides</th>
-                    <th>Legal</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>About</td>
-                    <td>FAQ</td>
-                    <td>Community guides</td>
-                    <td>Terms</td>
-                </tr>
-                <tr>
-                    <td>High quality coding education maintained by an open source community.</td>
-                    <td>Team</td>
-                    <td>Contribute</td>
-                    <td>Installation guides</td>
-                    <td>Privacy</td>
-                </tr>
-                <tr>
-                    <tr></tr>
-                    <tr>Blog</tr>
-                    <tr>Contact us</tr>
-                    <tr></tr>
-                    <tr></tr>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Success Stories</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+            <tabl class="styled-table">
+                <thead>
+                    <tr>
+                        <th>THE ODIN PROJECT</th>
+                        <th>About us</th>
+                        <th>Support</th>
+                        <th>Guides</th>
+                        <th>Legal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>About</td>
+                        <td>FAQ</td>
+                        <td>Community guides</td>
+                        <td>Terms</td>
+                    </tr>
+                    <tr>
+                        <td>High quality coding education maintained by an open source community.</td>
+                        <td>Team</td>
+                        <td>Contribute</td>
+                        <td>Installation guides</td>
+                        <td>Privacy</td>
+                    </tr>
+                    <tr>
+                        <tr></tr>
+                        <tr>Blog</tr>
+                        <tr>Contact us</tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Success Stories</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </main>

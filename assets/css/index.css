@@ -3,17 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-} */
-
-/* .nav-menu{
-    margin:0;
-    padding:0;
-    list-style:none;
-    display:flex;
-} */
+    color: gray;
+}
 
 .nav-menu{
     margin: 40px;
@@ -22,7 +15,6 @@
     display: flex;
     gap:40px;
     justify-content: flex-end;
-    
 }
 
 .nav-menu li a{
@@ -45,19 +37,34 @@
     font-size: 24px;
 }
 
+.title-intro .curriculum{
+    margin-top: 50px;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0.5 solid gray;
+}
+
 .title-intro span {
     color: goldenrod;
 }
 
-/* h1 {
-    text-siz
-} */
+.how-it-works{
+    font-size:20px;
+    margin-top:10px;
+    
+}
+.how-it-works h2, .how-it-works p{
+    margin:30px;
+}
 
+.mini h5, .mini p{
+    margin:30px;
+}
 .container{
-    /* justify-content: center; */
-    margin: 200px;
+    margin: 50px;
     text-align: center;
-    /* width: 200px; */
 }
 
 .mini-images {
@@ -65,8 +72,6 @@
     margin: auto;
     justify-content: center;
     gap:50px;
-
-    /* justify-content: center; */
 }
 
 .section h5{
@@ -81,21 +86,16 @@
     width:700px;
     margin: 0 auto;
 }
+
 .badge {
     width:200px;
     height:270px;
     margin: 10px 10px;
     text-align: center;
-    /* background-color: gray; */
+    background-color: white;
     border:1px solid white;
     padding: 20px;
 }
-
-/* .container2{
-    display:grid;
-    flex-wrap: wrap;
-    
-} */
 
 .container2 img{
     width:150px;
@@ -106,16 +106,12 @@
     background-color: rgb(200, 200, 200, 1);
 }
 
-
 .section .button{
     text-align: center;
     margin: 20px 20px;
-    
-   
 }
 
 .bttn{
-    /* color:red; */
     padding: 10px 20px;
     border: 0.5px solid grey;
     border-radius: 6px;
@@ -136,7 +132,6 @@
 .stories img{
     width:50px;
     height:50px;
-    
 }
 
 .stories{
@@ -161,13 +156,6 @@
     border-radius: 50px;
 }
 
-/* .stories a{
-    text-align: center;
-    font-size: 16px;
-    color:gray;
-    cursor: pointer;
-} */
-
 .section3 {
     text-align: center;
     font-size: 20px;
@@ -178,3 +166,22 @@
     display: flex;
     justify-content: center;
 }
+
+#learn-button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+.styled-table{
+    margin: 20px;
+    width:90%;
+}
+
+/* .styled-table th, .styled-table td{
+    padding: 12px 20px;
+    border: 1px
+} */
